@@ -10,7 +10,7 @@ function addInCartMessage(title, price) {
     message = message + "теперь в корзине!";
     return message;
 }
-
+//тест
 function addInCartCountChange(value) {
     let oldValue = value;
     let newValue;
