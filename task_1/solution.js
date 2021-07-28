@@ -1,9 +1,9 @@
 function addInCartMessage(title, price) {
-        let productName = title;
-        let productPrice = price;
-        let message = productName;
-        message += " " + "за" + " " + productPrice + " " + "теперь в корзине!";
-        return message;
+    let productName = title;
+    let productPrice = price;
+    let message = productName;
+    message += " " + "за" + " " + productPrice + " " + "теперь в корзине!";
+    return message;
 }
 
 function addInCartCountChange(value) {
