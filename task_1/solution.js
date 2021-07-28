@@ -13,13 +13,10 @@ function addInCartCountChange(value) {
     return newValue;
 }
 
-
 function addInCartSumChange(sum, delta) {
     let oldSum = sum;
     let difference = delta;
-    let newSam;
-    newSam = oldSum + difference;
-    let newSumText = newSum + ' ₽';
+    let newSum = oldSum + difference;
+    let newSumText = newSum + " ₽";
     return newSumText;
 }
-
