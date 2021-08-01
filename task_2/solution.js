@@ -1,12 +1,11 @@
-functioncalcShipping(sum,min,shipping){
+function calcShipping(sum, min, shipping) {
     let productsSum = sum; // сумма в корзине
-    let shippingSum;// сумма в корзине
     let freeShippingMinSum = min; // минимальная цена для бесплатной доставки
     let shippingPrice = shipping; // стоимость доставки
 
     // Задание №2.1 Рассчитать доставку
 
-    // создайте переменную shippingSum
+   // создайте переменную shippingSum
     let shippingSum;
 
     // если productsSum равно 0,
